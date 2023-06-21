@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/products.css" />
+    <link rel="stylesheet" href="/assets/css/details.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/font-awesome-pro-v6-6/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <div class="navbar">
+      <div class="container">
+        <div class="wrapper">
+          <div class="header__left">
+            <div class="header__left--logo">
+              <a href="./index.html"
+                ><img src="./assets/images/logo.svg" alt="logo"
+              /></a>
+            </div>
+          </div>
+          <div class="header__right">
+            <menu class="contacts desktop-view">
+              <li class="contacts__list">
+                <img src="./assets/images/whatsapp (1) 1.svg" alt="whatsapp" />
+                <a class="contacts__list--item" href="#"> +79 951 120 365 </a>
+              </li>
+
+              <li class="contacts__list">
+                <img src="./assets/images/phone-call 2.svg" alt="phone" />
+                <a class="contacts__list--item" href="tel:+34951120365">
+                  +34 951 120 365
+                </a>
+                <img src="./assets/images/spain (1) 1.svg" alt="spain" />
+              </li>
+
+              <li class="contacts__list">
+                <img src="./assets/images/phone-call 2.svg" alt="phone" />
+                <a class="contacts__list--item" href="tel:+34951120365">
+                  +79 951 120 365
+                </a>
+                <img src="./assets/images/russia 1.svg" alt="russian" />
+              </li>
+            </menu>
+
+            <menu class="languages desktop-view">
+              <li class="languages__item">
+                <a href="#"> EN</a>
+              </li>
+              <li class="languages__item selected">
+                <a href="#"> RU</a>
+              </li>
+              <li class="languages__item">
+                <a href="#"> ES</a>
+              </li>
+            </menu>
+
+            <a id="burgerBtn" class="header__menu--btn" href="#">
+              <img src="./assets/images/menu 1.svg" alt="menu" />
+            </a>
+          </div>
+          <div class="menu__extended"></div>
+        </div>
+      </div>
+      <div class="menu">
+        <a id="closeBtn" href="#"><i class="fa fa-close"></i></a>
+
+        <menu class="languages mobile-view">
+          <li class="languages__item">
+            <a href="#"> EN</a>
+          </li>
+          <li class="languages__item selected">
+            <a href="#"> RU</a>
+          </li>
+          <li class="languages__item">
+            <a href="#"> ES</a>
+          </li>
+        </menu>
+        <h2 class="menu__title">Добро пожаловать в Spain House</h2>
+        <nav class="menu__list">
+          <ul class="menu__list--item">
+            <a href="./index.html">Главная</a>
+          </ul>
+
+          <ul class="menu__list--item has-dropdown">
+            <a href="#">новостройки </a
+            ><span><i class="fas fa-chevron-down"></i></span>
+            <ul class="dropdown__list">
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test1</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test2</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test3</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test4</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test5</a>
+              </li>
+            </ul>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="#">вторичная недвижимость</a>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="./rent.html">аренда</a>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="./land-plots.html">земельные участки</a>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="#">контакты</a>
+          </ul>
+        </nav>
+
+        <menu class="contacts">
+          <li class="contacts__list">
+            <img src="./assets/images/whatsapp (1) 1.svg" alt="whatsapp" />
+            <a class="contacts__list--item" href="#"> +79 951 120 365 </a>
+          </li>
+
+          <li class="contacts__list">
+            <img src="./assets/images/phone-call 2.svg" alt="phone" />
+            <a class="contacts__list--item" href="tel:+34951120365">
+              +34 951 120 365
+            </a>
+            <img src="./assets/images/spain (1) 1.svg" alt="spain" />
+          </li>
+
+          <li class="contacts__list">
+            <img src="./assets/images/phone-call 2.svg" alt="phone" />
+            <a class="contacts__list--item" href="tel:+34951120365">
+              +79 951 120 365
+            </a>
+            <img src="./assets/images/russia 1.svg" alt="russian" />
+          </li>
+        </menu>
+
+        <ul class="social">
+          <li class="social__item">
+            <a href="#"
+              ><img
+                class="social__item--img"
+                src="./assets/images/instagram (1) 1.svg"
+                alt="insta"
+            /></a>
+          </li>
+
+          <li class="social__item">
+            <a href="#"
+              ><img
+                class="social__item--img"
+                src="./assets/images/facebook (3) 1.svg"
+                alt="facebook"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- MAIN START  -->
+    <main class="contact">
+
+      <header
+      class="header"
+      style="
+        background-image: url(./assets/images/contactheader.jpg);
+      "
+    >
+      <div class="header__overlay"></div>
+      <div class="header__contents">
+        <h1 class="header__title">Ekaterina
+         <p> Kuzmina</p></h1>
+        <p class="header__txt">
+          company owner
+        </p>
+
+        <ul class="social desktop-view">
+          <li class="social__item">
+            <a href="#"
+              ><img
+                class="social__item--img"
+                src="./assets/images/instagram (1) 1.svg"
+                alt="insta"
+            /></a>
+          </li>
+
+          <li class="social__item">
+            <a href="#"
+              ><img
+                class="social__item--img"
+                src="./assets/images/facebook (3) 1.svg"
+                alt="facebook"
+            /></a>
+          </li>
+        </ul>
+
+        <span class="header__bottom--txt">КОНТАКТЫ</span>
+      </div>
+    </header>
+      <section class="contactUs container">
+       
+        <div class="contact__top">
+          <div class="contact__left">
+            <img
+              class="contact__left--img"
+              src="./assets/images/IMG_4948 3.jpg"
+              alt="img"
+            />
+          </div>
+          <div class="contact__right">
+            <p class="contact__right--txt">
+              Я решил переехать в Испанию еще в 2008 году. Пройдя через Барселону,
+              Мадрид и Валенсию, я наконец откр ыл для себя жизнь мечты, которой можно
+              наслаждаться в Марбелье в 2012 году, и с тех пор не переезжала!
+              
+             
+            </p>
+            <p class="contact__right--txt">
+              Имея опыт работы в секторе недвижимости в инвестиционно-банковской фирме,
+              я понял, что моя обширная сеть контактов в этой области дает мне возможность
+              добиться чего-то большего. Вступив в отрасль недвижимости в 2015 году, я получил
+              шанс стать соучредителем компании Prime Realty Marbella в 2016 году, и с тех пор
+              это безупречный успех!
+            </p>
+
+            <span class="contact__right--lang"
+              >LanguageS: RUSSIAN, English, Spanish.
+            </span>
+
+          </div>
+        </div>
+
+        <div class="contact__bottom">
+          <div class="contacts">
+            <div class="contacts__inner">
+              <h2 class="contacts__title">Нужна помощь?</h2>
+              <p class="contacts__txt">
+                Заполните форму ниже или позвоните мне
+              </p>
+              <menu class="contacts">
+                <li class="contacts__list">
+                  <img
+                    src="./assets/images/whatsapp (1) 1.svg"
+                    alt="whatsapp"
+                  />
+                  <a class="contacts__list--item" href="#"> +79 951 120 365 </a>
+                </li>
+
+                <li class="contacts__list">
+                  <img src="./assets/images/phone-call 2.svg" alt="phone" />
+                  <a class="contacts__list--item" href="tel:+34951120365">
+                    +34 951 120 365
+                  </a>
+                  <img src="./assets/images/spain (1) 1.svg" alt="spain" />
+                </li>
+
+                <li class="contacts__list">
+                  <img src="./assets/images/phone-call 2.svg" alt="phone" />
+                  <a class="contacts__list--item" href="tel:+34951120365">
+                    +79 951 120 365
+                  </a>
+                  <img src="./assets/images/russia 1.svg" alt="russian" />
+                </li>
+              </menu>
+
+              <form action="" class="contact__form">
+                <input
+                  required
+                  placeholder="Имя*"
+                  type="text"
+                  name="name"
+                  id="name"
+                />
+                <input
+                  required
+                  placeholder="Email адрес*"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+                <input
+                  placeholder="Номер телефона"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                />
+                <textarea
+                  required
+                  placeholder="Сооющение*"
+                  name="message"
+                  id="message"
+                ></textarea>
+                <fieldset>
+                  <input checked id="terms__conditions" type="checkbox" />
+                  <label class="terms__agree" for="terms__conditions">
+                    я принимаю <a href="#">политику конфиденциальности</a>
+                  </label>
+                </fieldset>
+
+                <input type="submit" class="btn btn__gray sumbit__btn" value="отправить">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <menu class="list">
+        <li class="list__item">
+          <img
+            class="list__item--logo"
+            src="./assets/images/footer_logo.svg"
+            alt="logo"
+          />
+        </li>
+
+        <li class="list__item">
+          <ul class="social">
+            <li class="social__item">
+              <a href="#"
+                ><img
+                  class="social__item--img"
+                  src="./assets/images/instagram (1) 1.svg"
+                  alt="insta"
+              /></a>
+            </li>
+
+            <li class="social__item">
+              <a href="#"
+                ><img
+                  class="social__item--img"
+                  src="./assets/images/facebook (3) 1.svg"
+                  alt="facebook"
+              /></a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <p class="list__item--rights">
+            © Все права защищены. Агентство недвижимости Spain House
+          </p>
+        </li>
+      </menu>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/product-details.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

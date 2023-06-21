@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/products.css" />
+    <link rel="stylesheet" href="./assets/font-awesome-pro-v6-6/css/all.css" />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <div class="navbar">
+      <div class="container">
+        <div class="wrapper">
+          <div class="header__left">
+            <div class="header__left--logo">
+              <a href="./index.html"
+                ><img src="./assets/images/logo.svg" alt="logo"
+              /></a>
+            </div>
+          </div>
+          <div class="header__right">
+            <menu class="contacts desktop-view">
+              <li class="contacts__list">
+                <img src="./assets/images/whatsapp (1) 1.svg" alt="whatsapp" />
+                <a class="contacts__list--item" href="#"> +79 951 120 365 </a>
+              </li>
+
+              <li class="contacts__list">
+                <img src="./assets/images/phone-call 2.svg" alt="phone" />
+                <a class="contacts__list--item" href="tel:+34951120365">
+                  +34 951 120 365
+                </a>
+                <img src="./assets/images/spain (1) 1.svg" alt="spain" />
+              </li>
+
+              <li class="contacts__list">
+                <img src="./assets/images/phone-call 2.svg" alt="phone" />
+                <a class="contacts__list--item" href="tel:+34951120365">
+                  +79 951 120 365
+                </a>
+                <img src="./assets/images/russia 1.svg" alt="russian" />
+              </li>
+            </menu>
+
+            <menu class="languages desktop-view">
+              <li class="languages__item">
+                <a href="#"> EN</a>
+              </li>
+              <li class="languages__item selected">
+                <a href="#"> RU</a>
+              </li>
+              <li class="languages__item">
+                <a href="#"> ES</a>
+              </li>
+            </menu>
+
+            <a id="burgerBtn" class="header__menu--btn" href="#">
+              <img src="./assets/images/menu 1.svg" alt="menu" />
+            </a>
+          </div>
+          <div class="menu__extended"></div>
+        </div>
+      </div>
+      <div class="menu">
+        <a id="closeBtn" href="#"><i class="fa fa-close"></i></a>
+
+        <menu class="languages mobile-view">
+          <li class="languages__item">
+            <a href="#"> EN</a>
+          </li>
+          <li class="languages__item selected">
+            <a href="#"> RU</a>
+          </li>
+          <li class="languages__item">
+            <a href="#"> ES</a>
+          </li>
+        </menu>
+        <h2 class="menu__title">Добро пожаловать в Spain House</h2>
+        <nav class="menu__list">
+          <ul class="menu__list--item">
+            <a href="./index.html">Главная</a>
+          </ul>
+
+          <ul class="menu__list--item has-dropdown">
+            <a href="#">новостройки </a
+            ><span><i class="fas fa-chevron-down"></i></span>
+            <ul class="dropdown__list">
+              <li class="menu__list--item dropdown__list--item">
+                <a href="./buildings.html">Test1</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test2</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test3</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test4</a>
+              </li>
+              <li class="menu__list--item dropdown__list--item">
+                <a href="#">Test5</a>
+              </li>
+            </ul>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="./real-estate.html">вторичная недвижимость</a>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="./rent.html">аренда</a>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="./land-plots.html">земельные участки</a>
+          </ul>
+
+          <ul class="menu__list--item">
+            <a href="./contact.html">контакты</a>
+          </ul>
+        </nav>
+
+        <menu class="contacts">
+          <li class="contacts__list">
+            <img src="./assets/images/whatsapp (1) 1.svg" alt="whatsapp" />
+            <a class="contacts__list--item" href="#"> +79 951 120 365 </a>
+          </li>
+
+          <li class="contacts__list">
+            <img src="./assets/images/phone-call 2.svg" alt="phone" />
+            <a class="contacts__list--item" href="tel:+34951120365">
+              +34 951 120 365
+            </a>
+            <img src="./assets/images/spain (1) 1.svg" alt="spain" />
+          </li>
+
+          <li class="contacts__list">
+            <img src="./assets/images/phone-call 2.svg" alt="phone" />
+            <a class="contacts__list--item" href="tel:+34951120365">
+              +79 951 120 365
+            </a>
+            <img src="./assets/images/russia 1.svg" alt="russian" />
+          </li>
+        </menu>
+
+        <ul class="social">
+          <li class="social__item">
+            <a href="#"
+              ><img
+                class="social__item--img"
+                src="./assets/images/instagram (1) 1.svg"
+                alt="insta"
+            /></a>
+          </li>
+
+          <li class="social__item">
+            <a href="#"
+              ><img
+                class="social__item--img"
+                src="./assets/images/facebook (3) 1.svg"
+                alt="facebook"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- MAIN START  -->
+    <main>
+      <header
+        class="header"
+        style="background: url(./assets/images/rent.jpg) no-repeat"
+      >
+        <div class="header__contents">
+          <h1 class="header__contents--title">Аренда</h1>
+          <p class="header__contents--txt">
+            РАССКАЖИТЕ НАМ, ЧТО ТАКОЕ ЖИЗНЬ ВАШЕЙ МЕЧТЫ, И МЫ НАЙДЕМ ЕЕ ДЛЯ ВАС
+          </p>
+        </div>
+
+        <div class="header__overlay"></div>
+      </header>
+
+      <section class="product container">
+        <div class="product__top">
+          <form action="">
+            <div class="search__input">
+              <input
+                class="search"
+                id="search"
+                placeholder="Артикул"
+                type="search"
+              />
+              <i class="fa fa-search search__icon"></i>
+            </div>
+            <select class="select--type" name="cities" id="">
+              <option value="">Район</option>
+              <option value="baku">Baku</option>
+              <option value="sabirabad">Sabirabad</option>
+              <option value="ganja">Ganja</option>
+            </select>
+            <select class="select--type" name="types" id="type">
+              <option value="">Тип недвижимости</option>
+              <option value="all">Все типы</option>
+              <option value="rent">Квартира</option>
+              <option value="townhouse">Таунхаус</option>
+              <option value="home">Дом</option>
+            </select>
+            <input
+              class="btn sumbit__btn btn__gray"
+              type="submit"
+              value="поиск"
+            />
+          </form>
+
+          <div class="pagination">
+            <menu class="pages">
+              <li class="pages__item">
+                <a href="#"><i class="fas fa-step-backward"></i></a>
+              </li>
+              <li class="pages__item active"><a href="#">1</a></li>
+              <li class="pages__item"><a href="#">2</a></li>
+              <li class="pages__item">
+                <a href="#"><i class="fas fa-step-forward"></i></a>
+              </li>
+            </menu>
+          </div>
+        </div>
+
+        <div class="products">
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/rec2.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b1.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/rec3.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/rec4.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b1.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b3.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="home" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b1.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/rec2.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/rec3.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b4.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b2.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b4.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/rec2.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="rent" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b5.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="townhouse" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b4.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="townhouse" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b3.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="townhouse" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b2.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article data-value="townhouse" class="products__item">
+            <a href="#">
+              <img
+                class="products__item--img"
+                src="./assets/images/b1.jpg"
+                alt="item"
+              />
+              <div class="item__bottom">
+                <div class="info">
+                  <div class="info__top">
+                    <span class="info__code">Fuengirola - R3304693</span>
+                    <h3 class="info__title">Элитная вилла в стиле модерн</h3>
+                    <strong class="info__price">
+                      <span class="currency">€</span>4,195,000
+                      <img
+                        class="info__price--arrow"
+                        src="./assets/images/double-right-arrows-angles 2.svg"
+                        alt=""
+                      />
+                    </strong>
+                  </div>
+                  <div class="info__bottom">
+                    <div class="areas">
+                      <span class="info__area"> Площадь: 300 м2 </span>
+                      <span class="info__rooms">Спальни: 5</span>
+                    </div>
+                    <span class="info__terrace"> Терраса: 25м2 </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="product__bottom">
+          <div class="pagination">
+            <menu class="pages">
+              <li class="pages__item">
+                <a href="#"><i class="fas fa-step-backward"></i></a>
+              </li>
+              <li class="pages__item active"><a href="#">1</a></li>
+              <li class="pages__item"><a href="#">2</a></li>
+              <li class="pages__item">
+                <a href="#"><i class="fas fa-step-forward"></i></a>
+              </li>
+            </menu>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <menu class="list">
+        <li class="list__item">
+          <img
+            class="list__item--logo"
+            src="./assets/images/footer_logo.svg"
+            alt="logo"
+          />
+        </li>
+
+        <li class="list__item">
+          <ul class="social">
+            <li class="social__item">
+              <a href="#"
+                ><img
+                  class="social__item--img"
+                  src="./assets/images/instagram (1) 1.svg"
+                  alt="insta"
+              /></a>
+            </li>
+
+            <li class="social__item">
+              <a href="#"
+                ><img
+                  class="social__item--img"
+                  src="./assets/images/facebook (3) 1.svg"
+                  alt="facebook"
+              /></a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="list__item">
+          <p class="list__item--rights">
+            © Все права защищены. Агентство недвижимости Spain House
+          </p>
+        </li>
+      </menu>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
