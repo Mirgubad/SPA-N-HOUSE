@@ -158,7 +158,6 @@
 .item-2 {
   max-width: 81.3rem;
   height: 54rem;
-  min-height: 54rem;
   grid-area: top;
 }
 
@@ -314,12 +313,9 @@
     width: 160%;
     left: -30%;
   }
-  /* .contact .wrapper {
-    text-align: center;
-    flex-direction: column-reverse;
-    gap: 5rem;
-  } */
-
+  .swiper {
+   min-height: 56.8rem;
+  }
   .contact{
     border: 0;
   }
