@@ -72,7 +72,6 @@
 
 .swiper {
   filter: drop-shadow(0px 5px 18px rgba(0, 0, 0, 0.3));
-  min-height: 56.8rem;
 }
 
 .slide__top {
@@ -159,6 +158,7 @@
 .item-2 {
   max-width: 81.3rem;
   height: 54rem;
+  min-height: 54rem;
   grid-area: top;
 }
 
